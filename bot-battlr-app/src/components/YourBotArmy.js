@@ -12,7 +12,7 @@ function YourBotArmy({ army, releaseBot, deleteBot }) {
 
 
   return (
-    <div>
+    <div className="your-bot-army-container">
       <h2>Your Bot Army</h2>
       {army.length === 0 ? <p>You have no enlisted bots</p> : renderArmy()}
     </div>

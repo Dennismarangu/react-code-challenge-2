@@ -1,0 +1,46 @@
+.bot-card-container {
+    border: 1px solid gray;
+    padding: 16px;
+    margin-bottom: 16px;
+    background-color: #fff;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .bot-card-container img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-right: 16px;
+  }
+  
+  .bot-card-container h3 {
+    font-size: 24px;
+    margin-bottom: 8px;
+  }
+  
+  .bot-card-container p {
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+  
+  .bot-card-container button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: auto;
+  }
+  
+  .bot-card-container button:hover {
+    background-color: #0069d9;
+  }
+  
+  .bot-card-container button:disabled {
+    background-color: gray;
+    cursor: not-allowed;
+  }

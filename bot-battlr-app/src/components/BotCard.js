@@ -13,7 +13,7 @@ function BotCard({ bot, enlistBot, releaseBot, deleteBot, army }) {
     };
 
   return (
-    <div>
+    <div className="bot-card-container">
       <img src={avatar_url} alt={name} />
       <h3>{name}</h3>
       <p>{`Health: ${health}`}</p>

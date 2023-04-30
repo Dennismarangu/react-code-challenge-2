@@ -7,7 +7,7 @@ function BotCollection(props) {
   const { bots, enlistBot, releaseBot, deleteBot, army } = props;
 
   return (
-    <div>
+    <div className="bot-collection-container">
       <h2>All Bots</h2>
 {bots && bots.map((bot) => (
    <BotCard
