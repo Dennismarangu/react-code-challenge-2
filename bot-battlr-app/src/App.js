@@ -16,7 +16,7 @@ function App() {
 
   const enlistBot = (id) => {
     const botToEnlist = bots.find((bot) => bot.id === id);
-    setArmy([...army, botToEnlist]);
+    setArmy([...army, {id: bots.lenght + 1, ...botToEnlist}]);
   };
 
   const releaseBot = (id) => {
