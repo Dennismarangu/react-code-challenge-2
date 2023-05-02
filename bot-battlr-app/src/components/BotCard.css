@@ -6,6 +6,7 @@
     border-radius: 30px;
     display: flex;
     align-items: center;
+    border-width: 30px;
   }
   
   .bot-card-container img {

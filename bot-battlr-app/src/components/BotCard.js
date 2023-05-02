@@ -16,11 +16,13 @@ function BotCard({ bot, enlistBot, releaseBot, deleteBot, army }) {
     <div className="bot-card-container">
       <img src={avatar_url} alt={name} />
       <h3>{name}</h3>
+      <ol>
       <p>{`Health: ${health}`}</p>
       <p>{`Damage: ${damage}`}</p>
       <p>{`Armor: ${armor}`}</p>
       <p>{`Bot Class: ${bot_class}`}</p>
       <p>{`Catchphrase: ${catchphrase}`}</p>
+      </ol>
       <button onClick={handleClick}>
         {!enlistBot
           ? "x"
